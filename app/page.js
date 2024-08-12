@@ -22,7 +22,7 @@ function LandingPage() {
     },
     {
       icon: <Public />,
-      title: "Mythical Realms",
+      title: "Quiz Me",
       description: "Explore legendary worlds and ancient civilizations.",
     },
     {
@@ -116,6 +116,8 @@ function LandingPage() {
             </Typography>
           </Grid>
           <Grid item xs={12}>
+          <Link href="/quiz" passHref>
+
             <Typography
               variant="h5"
               textAlign="center"
@@ -129,6 +131,7 @@ function LandingPage() {
             >
               Transcend the boundaries of time and myth with our celestial odyssey machine.
             </Typography>
+            </Link>
           </Grid>
           <Grid item xs={12} textAlign="center">
             <Link href="/main">
